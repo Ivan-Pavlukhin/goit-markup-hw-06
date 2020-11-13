@@ -615,8 +615,8 @@ img {
   margin-bottom: 30px;
 }
 
-.projects .item:hover,
-.projects .item:focus {
+.projects .link:hover,
+.projects .link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -649,7 +649,8 @@ img {
   color: var(--primary-white-color);
 }
 
-.thumb:hover .text-thumb {
+.link:hover .text-thumb,
+.link:focus .text-thumb {
   transform: translate(0);
 }
 
@@ -675,7 +676,7 @@ img {
   text-align: left;
 
   width: 320px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   margin-left: 24px;
   font-weight: 400;
   font-size: 16px;
@@ -753,6 +754,7 @@ img {
 }
 
 .button-submit {
+  width: 200px;
   padding: 10px 55px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
